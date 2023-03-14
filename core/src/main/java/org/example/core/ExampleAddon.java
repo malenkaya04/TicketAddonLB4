@@ -11,11 +11,13 @@ public class ExampleAddon extends LabyAddon<ExampleConfiguration> {
 
   @Override
   protected void enable() {
+    TicketAmountWidget ticketAmountWidget = new TicketAmountWidget(this);
+
     this.registerSettingCategory();
 
-    this.registerListener(new TicketAcceptedListener(this));
+    this.registerListener(new TicketAcceptedListener(this, ticketAmountWidget));
     this.registerCommand(new TrollCommand());
-    this.labyAPI().hudWidgetRegistry().register(new TicketAmountWidget(this));
+    this.labyAPI().hudWidgetRegistry().register(ticketAmountWidget);
 
     this.logger().info("Enabled the Addon");
   }

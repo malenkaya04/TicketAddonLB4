@@ -8,10 +8,11 @@ import org.example.core.TicketAmountWidget;
 public class TicketAcceptedListener {
 
   private final ExampleAddon addon;
+  private final TicketAmountWidget taw;
 
 
-  public TicketAcceptedListener(ExampleAddon addon) {
-    this.addon = addon;
+  public TicketAcceptedListener(ExampleAddon addon, TicketAmountWidget taw) {
+    this.addon = addon; this.taw = taw;
   }
 
   @Subscribe(127)
@@ -22,6 +23,7 @@ public class TicketAcceptedListener {
     if (event.chatMessage().getPlainText().contains("schaut sich das Ticket #") && event.chatMessage().getPlainText().contains(getPlayerName())) {
       Integer newTicketAmount = this.addon.configuration().ticketAmount().get() + 1;
       this.addon.configuration().ticketAmount().set(newTicketAmount);
+      taw.updateTicketAmount();
     }
     return false;
   }
