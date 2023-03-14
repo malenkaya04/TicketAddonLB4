@@ -20,5 +20,6 @@ public class ExampleGameTickListener {
     }
 
     this.addon.logger().info(this.addon.configuration().enabled().get() ? "enabled" : "disabled");
+    this.addon.logger().warn("YEET!!!!");
   }
 }

@@ -10,11 +10,11 @@ version = "1.0.0"
 java.toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 
 labyMod {
-    defaultPackageName = "org.example" //change this to your main package name (used by all modules)
+    defaultPackageName = "org.malenkaya04.addons.ticketaddon" //change this to your main package name (used by all modules)
     addonInfo {
-        namespace = "example"
-        displayName = "ExampleAddon"
-        author = "Example Author"
+        namespace = "ticketaddon"
+        displayName = "TicktAddon v2"
+        author = "TheFastCreeper"
         description = "Example Description"
         minecraftVersion = "*"
         version = System.getenv().getOrDefault("VERSION", "0.0.1")
