@@ -15,7 +15,7 @@ labyMod {
         namespace = "ticketaddon"
         displayName = "TicktAddon v2"
         author = "TheFastCreeper"
-        description = "Example Description"
+        description = "The updated Ticket Addon for LabyMod 4!"
         minecraftVersion = "*"
         version = System.getenv().getOrDefault("VERSION", "0.0.1")
     }

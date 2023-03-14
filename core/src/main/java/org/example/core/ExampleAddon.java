@@ -2,9 +2,8 @@ package org.example.core;
 
 import net.labymod.api.addon.LabyAddon;
 import net.labymod.api.models.addon.annotation.AddonMain;
-import org.example.core.commands.ExamplePingCommand;
 import org.example.core.commands.TrollCommand;
-import org.example.core.listener.ExampleGameTickListener;
+import org.example.core.listener.TicketAcceptedListener;
 
 @AddonMain
 public class ExampleAddon extends LabyAddon<ExampleConfiguration> {
@@ -14,8 +13,9 @@ public class ExampleAddon extends LabyAddon<ExampleConfiguration> {
   protected void enable() {
     this.registerSettingCategory();
 
-    this.registerCommand(new ExamplePingCommand());
+    this.registerListener(new TicketAcceptedListener(this));
     this.registerCommand(new TrollCommand());
+    this.labyAPI().hudWidgetRegistry().register(new TicketAmountWidget(this));
 
     this.logger().info("Enabled the Addon");
   }
