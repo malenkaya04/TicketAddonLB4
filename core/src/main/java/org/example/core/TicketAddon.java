@@ -20,6 +20,7 @@ public class TicketAddon extends LabyAddon<TicketAddonConfiguration> {
     this.registerCommand(new TrollCommand());
     this.labyAPI().hudWidgetRegistry().register(ticketAmountWidget);
     SettingsChangedListener settingsChangedListener = new SettingsChangedListener(this,ticketAmountWidget);
+    MondayResetManager mondayResetManager = new MondayResetManager(this);
     this.logger().info("Enabled the Addon");
   }
 

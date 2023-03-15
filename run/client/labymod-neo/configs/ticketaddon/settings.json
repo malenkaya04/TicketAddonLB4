@@ -1,4 +1,5 @@
 {
   "enabled": true,
-  "ticketAmount": 0
+  "ticketAmount": 19,
+  "performedMondayReset": false
 }
