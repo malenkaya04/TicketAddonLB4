@@ -1,0 +1,21 @@
+{
+  "ticketaddon": {
+    "settings": {
+      "name": "TicketAddon",
+      "enabled": {
+        "name": "Aktiviert"
+      },
+      "ticketAmount": {
+        "name": "Tickets"
+      },
+      "performedMondayReset" : {
+        "name" : "Nicht ändern!"
+      }
+    },
+    "hudWidget": {
+      "ticketAmount": {
+        "name": "Tickets"
+      }
+    }
+  }
+}
