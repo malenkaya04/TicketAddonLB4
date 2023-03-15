@@ -1,0 +1,588 @@
+{
+  "scale": 1.0,
+  "labelColor": {
+    "value": -22016
+  },
+  "bracketColor": {
+    "value": -5592406
+  },
+  "valueColor": {
+    "value": -1
+  },
+  "formatting": "SQUARE_BRACKETS",
+  "smoothMovement": false,
+  "itemGravity": true,
+  "configs": {
+    "ticketAmount": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 2.0,
+      "y": 2.0,
+      "enabled": true
+    },
+    "fps": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "coordinates": {
+      "singleLine": false,
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "memory": {
+      "memoryType": "PERCENT",
+      "coloredNumbers": true,
+      "moreSpace": true,
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "afk_timer": {
+      "idleTime": 20,
+      "warningColor": {
+        "value": -43691
+      },
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "biome": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "click_test": {
+      "displayAtZeroSpeed": true,
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "clock": {
+      "timeFormat": "EN",
+      "customFormat": "",
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "combo": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "date": {
+      "dateFormat": "FULL_US",
+      "customFormat": "",
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "entity_count": {
+      "showMaxEntityCount": true,
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "fdirection": {
+      "directionNumber": true,
+      "cardinalPoints": true,
+      "xzDirection": true,
+      "shortenNames": true,
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "ping": {
+      "averageColor": {
+        "value": -256
+      },
+      "displayAverage": false,
+      "coloredPing": true,
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "player_count": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "range": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "server_address": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "speed": {
+      "displayAtZeroSpeed": true,
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "system_battery_level": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "system_cpu_usage": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "system_memory_usage": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "service_tiktok": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "service_twitch": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "service_youtube": {
+      "labelColor": {
+        "value": -22016
+      },
+      "bracketColor": {
+        "value": -5592406
+      },
+      "valueColor": {
+        "value": -1
+      },
+      "formatting": "SQUARE_BRACKETS",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "arrow": {
+      "displayMode": "ALL",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "main_hand": {
+      "displayMode": "FULL",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "off_hand": {
+      "displayMode": "FULL",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "helmet": {
+      "displayMode": "FULL",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "chest": {
+      "displayMode": "FULL",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "legs": {
+      "displayMode": "FULL",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "feet": {
+      "displayMode": "FULL",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "potion": {
+      "nameColor": -1,
+      "durationColor": -1,
+      "amplifierColor": -1,
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "saturation": {
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    },
+    "scoreboard": {
+      "bodyTextShadow": false,
+      "bodyColor": {
+        "value": 1275068416
+      },
+      "headerTextShadow": false,
+      "headerColor": {
+        "value": 1711276032
+      },
+      "scoreColor": -43691,
+      "scoreVisibility": "VISIBLE",
+      "scale": 1.0,
+      "horizontalAlignment": "AUTO",
+      "useGlobal": true,
+      "areaIdentifier": "TOP_LEFT",
+      "x": 0.0,
+      "y": 0.0,
+      "enabled": false
+    }
+  }
+}

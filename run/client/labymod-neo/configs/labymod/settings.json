@@ -1,0 +1,166 @@
+{
+  "ingame": {
+    "performance": {
+      "fastWorldLoading": true,
+      "blurQuality": "HIGH"
+    },
+    "hudWidgets": true,
+    "disableBossBar": false,
+    "advancedChat": {
+      "enabled": true,
+      "shadow": true,
+      "background": true,
+      "draggable": true,
+      "resizeable": true,
+      "showMenuButton": true,
+      "legacyScrollbar": false,
+      "fadeInMessages": true,
+      "disableCrosshair": true,
+      "restoreCursor": false,
+      "showPlayerHeads": true,
+      "showChatOnHiddenGui": true,
+      "chatPeekKey": "NONE",
+      "globalChatLimit": 100,
+      "globalCombineChatMessages": false,
+      "globalAntiChatClear": false,
+      "globalChatTrust": true
+    },
+    "inventoryBanner": true,
+    "cosmetics": {
+      "renderCosmetics": true,
+      "renderMode": "RETAINED",
+      "cloakPriority": "LABYMOD",
+      "hideCosmeticsInDistance": true,
+      "hideAfterBlocks": 5,
+      "maxCosmeticsPerPlayer": 256
+    },
+    "emotes": {
+      "emotes": true,
+      "orderEmotesClockwise": true,
+      "showCosmeticsInWheel": false,
+      "emoteDebug": false
+    },
+    "showCapeParticles": true,
+    "enhancedSkinCustomization": true,
+    "showMyName": false,
+    "showCountryFlagBesideName": false,
+    "showUserIndicatorBesideName": false,
+    "disableSpeedFOV": false,
+    "zoom": {
+      "zoomKey": "R",
+      "zoomHold": true,
+      "zoomCinematic": {
+        "enabled": true,
+        "disableAfterTransition": false
+      },
+      "shouldRenderFirstPersonHand": true,
+      "scrollToZoom": false,
+      "zoomDistance": 4.0,
+      "zoomInType": "EASE_OUT",
+      "zoomInDuration": 100,
+      "zoomOutType": "EASE_IN",
+      "zoomOutDuration": 100
+    },
+    "damage": {
+      "damageColored": false,
+      "damageColor": {
+        "value": -1258356736
+      }
+    },
+    "hitbox": {
+      "enabled": false,
+      "lineSize": 2.5,
+      "eyeLineColor": {
+        "value": -16777046
+      },
+      "eyeBoxColor": {
+        "value": -5636096
+      },
+      "boxColor": {
+        "value": -1
+      }
+    }
+  },
+  "appearance": {
+    "theme": "vanilla",
+    "darkLoadingScreen": false,
+    "loadingScreenFadeOut": true,
+    "hideMenuBackground": false,
+    "cleanWindowTitle": false,
+    "navigation": {
+      "showSingleplayer": false,
+      "showOptions": true,
+      "rememberLastTab": true
+    }
+  },
+  "multiplayer": {
+    "classicPvP": {
+      "oldRange": false,
+      "oldSlowdown": false,
+      "oldSurvivalLayout": false,
+      "oldCreativeLayout": false,
+      "shouldRemoveRecipeBook": false,
+      "potionFix": false,
+      "oldSword": false,
+      "oldItemPosture": false,
+      "oldBow": false,
+      "oldFood": false,
+      "oldFishingRod": false,
+      "oldItemSwitch": false,
+      "oldHeadRotation": false,
+      "oldBackwards": false,
+      "oldSneaking": false,
+      "oldBlockBuild": false,
+      "oldHeart": false,
+      "oldDamageColor": false,
+      "oldHitbox": false
+    },
+    "serverList": {
+      "liveServerList": true,
+      "cooldown": 10,
+      "richServerList": true,
+      "niceNames": true,
+      "highQualityTextures": true,
+      "quickJoinButtons": true,
+      "friendsInServerList": true
+    },
+    "confirmDisconnect": false,
+    "showCurrentServerInfo": true,
+    "quickPlay": false,
+    "userIndicator": {
+      "showUserIndicatorInPlayerList": true,
+      "showLabyModPlayerPercentageInTabList": false,
+      "showCountryFlagInPlayerList": true
+    },
+    "ping": {
+      "renderPing": false,
+      "exactPingColored": true
+    },
+    "serverBanner": true
+  },
+  "notifications": {
+    "enabled": true,
+    "maxNotifications": 3
+  },
+  "other": {
+    "discord": {
+      "enabled": true,
+      "showServerAddress": true,
+      "displayAccount": true
+    },
+    "borderlessWindow": false,
+    "anonymousStatistics": true,
+    "advanced": {
+      "enableLssDebug": false,
+      "enableFpsDebug": false
+    }
+  },
+  "hotkeys": {
+    "emoteWheelKey": "X",
+    "interactionMenuKey": "MIDDLE",
+    "widgetEditorKey": "NONE",
+    "friendsKey": "NONE",
+    "markerKey": "NONE",
+    "disableNarratorHotkey": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "ticketaddon",
+  "displayName": "TicktAddon v2",
+  "description": "The updated Ticket Addon for LabyMod 4!",
+  "version": "0.0.1",
+  "author": "TheFastCreeper",
+  "requiredLabyModBuild": 683,
+  "os": [],
+  "compatibleMinecraftVersions": "*",
+  "mainClass": "org.example.core.TicketAddon",
+  "meta": [],
+  "mavenDependencies": [],
+  "addonDependencies": [],
+  "incompatibles": [],
+  "entrypoints": {},
+  "earlyTransformers": [],
+  "transformers": []
+}

@@ -1,17 +1,17 @@
 package org.example.core.listener;
 import net.labymod.api.event.Subscribe;
 import net.labymod.api.event.client.chat.ChatReceiveEvent;
-import org.example.core.ExampleAddon;
+import org.example.core.TicketAddon;
 import org.example.core.TicketAmountWidget;
 
 
 public class TicketAcceptedListener {
 
-  private final ExampleAddon addon;
+  private final TicketAddon addon;
   private final TicketAmountWidget taw;
 
 
-  public TicketAcceptedListener(ExampleAddon addon, TicketAmountWidget taw) {
+  public TicketAcceptedListener(TicketAddon addon, TicketAmountWidget taw) {
     this.addon = addon; this.taw = taw;
   }
 

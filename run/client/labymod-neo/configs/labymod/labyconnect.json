@@ -1,0 +1,10 @@
+{
+  "onlineStatus": "ONLINE",
+  "showConnectedServer": true,
+  "onlineStatusNotifications": true,
+  "serverSwitchNotifications": true,
+  "incomingRequestNotifications": true,
+  "incomingChatMessageNotifications": true,
+  "pinnedFriends": [],
+  "friendNotes": {}
+}

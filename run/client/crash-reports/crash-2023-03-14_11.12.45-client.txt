@@ -1,0 +1,218 @@
+---- Minecraft Crash Report ----
+// This is a token for 1 free hug. Redeem at your nearest Mojangsta: [~~HUG~~]
+
+Time: 2023-03-14, 11:12 a.m.
+Description: Rendering screen
+
+java.lang.IllegalStateException: Already building (BufferBuilder#end was not called for buffer builder 'Single Buffer Batch'.)
+	at net.labymod.core.client.gfx.pipeline.buffer.DefaultBufferBuilder.begin(DefaultBufferBuilder.java:42)
+	at net.labymod.api.client.gfx.pipeline.renderer.batch.SingleBufferBatch.begin(SingleBufferBatch.java:24)
+	at net.labymod.api.client.gui.screen.widget.attributes.Shadow.renderClassicShadow(Shadow.java:190)
+	at net.labymod.api.client.gui.screen.widget.attributes.Shadow.renderPost(Shadow.java:104)
+	at net.labymod.api.client.gui.screen.widget.attributes.Shadow.renderPost(Shadow.java:21)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.applyWidgetRenderer(AbstractWidget.java:2876)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._renderTheme(AbstractWidget.java:859)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderTheme(AbstractWidget.java:806)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$renderInternal$7(AbstractWidget.java:692)
+	at net.labymod.api.client.gui.mouse.MutableMouse.set(MutableMouse.java:39)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderInternal(AbstractWidget.java:687)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._render(AbstractWidget.java:631)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.render(AbstractWidget.java:610)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderWidget(AbstractWidget.java:899)
+	at net.labymod.api.client.gui.screen.theme.renderer.WidgetRenderer.renderWidget(WidgetRenderer.java:15)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$_renderTheme$8(AbstractWidget.java:849)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.applyStencil(AbstractWidget.java:886)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._renderTheme(AbstractWidget.java:845)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderTheme(AbstractWidget.java:806)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$renderInternal$7(AbstractWidget.java:692)
+	at net.labymod.api.client.gui.mouse.MutableMouse.set(MutableMouse.java:39)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderInternal(AbstractWidget.java:687)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._render(AbstractWidget.java:631)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.render(AbstractWidget.java:610)
+	at net.labymod.api.client.gui.screen.activity.ElementActivity.render(ElementActivity.java:54)
+	at net.labymod.api.client.gui.screen.activity.Activity.render(Activity.java:162)
+	at net.labymod.api.client.gui.screen.activity.types.SimpleActivity.render(SimpleActivity.java:27)
+	at net.labymod.api.client.gui.screen.activity.types.TabbedActivity.render(TabbedActivity.java:122)
+	at net.labymod.api.client.gui.screen.widget.widgets.renderer.ScreenRendererWidget$3$1.getAsBoolean(ScreenRendererWidget.java:289)
+	at net.labymod.api.client.gui.mouse.MutableMouse.set(MutableMouse.java:50)
+	at net.labymod.api.client.gui.screen.widget.widgets.renderer.ScreenRendererWidget.applyScreen(ScreenRendererWidget.java:405)
+	at net.labymod.api.client.gui.screen.widget.widgets.renderer.ScreenRendererWidget.access$100(ScreenRendererWidget.java:40)
+	at net.labymod.api.client.gui.screen.widget.widgets.renderer.ScreenRendererWidget$3.run(ScreenRendererWidget.java:286)
+	at net.labymod.core.client.gui.window.DefaultAbstractWindow.transform(DefaultAbstractWindow.java:98)
+	at net.labymod.api.client.gui.screen.widget.widgets.renderer.ScreenRendererWidget.renderWidget(ScreenRendererWidget.java:279)
+	at net.labymod.api.client.gui.screen.theme.renderer.WidgetRenderer.renderWidget(WidgetRenderer.java:15)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$_renderTheme$8(AbstractWidget.java:849)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.applyStencil(AbstractWidget.java:886)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._renderTheme(AbstractWidget.java:845)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderTheme(AbstractWidget.java:806)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$renderInternal$7(AbstractWidget.java:692)
+	at net.labymod.api.client.gui.mouse.MutableMouse.set(MutableMouse.java:39)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderInternal(AbstractWidget.java:687)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._render(AbstractWidget.java:631)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.render(AbstractWidget.java:610)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderWidget(AbstractWidget.java:899)
+	at net.labymod.api.client.gui.screen.theme.renderer.WidgetRenderer.renderWidget(WidgetRenderer.java:15)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$_renderTheme$8(AbstractWidget.java:849)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.applyStencil(AbstractWidget.java:886)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._renderTheme(AbstractWidget.java:845)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderTheme(AbstractWidget.java:806)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$renderInternal$7(AbstractWidget.java:692)
+	at net.labymod.api.client.gui.mouse.MutableMouse.set(MutableMouse.java:39)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderInternal(AbstractWidget.java:687)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._render(AbstractWidget.java:631)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.render(AbstractWidget.java:610)
+	at net.labymod.api.client.gui.screen.activity.ElementActivity.render(ElementActivity.java:54)
+	at net.labymod.api.client.gui.screen.activity.Activity.render(Activity.java:162)
+	at net.labymod.v1_16_5.client.gui.screen.LabyScreenRenderer.lambda$render$0(LabyScreenRenderer.java:107)
+	at net.labymod.api.client.Minecraft.lambda$updateMouse$0(Minecraft.java:102)
+	at net.labymod.api.client.gui.mouse.MutableMouse.set(MutableMouse.java:39)
+	at net.labymod.api.client.Minecraft.updateMouse(Minecraft.java:102)
+	at net.labymod.v1_16_5.client.gui.screen.LabyScreenRenderer.render(LabyScreenRenderer.java:106)
+	at net.minecraft.client.renderer.GameRenderer.mdefc010$lambda$labyMod$storeStack$0$0(GameRenderer.java:1960)
+	at net.labymod.api.client.gfx.pipeline.util.ScreenUtil.wrapRender(ScreenUtil.java:12)
+	at net.minecraft.client.renderer.GameRenderer.redirect$zce000$labyMod$storeStack(GameRenderer.java:1960)
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:616)
+	at net.minecraft.client.Minecraft.redirect$zfc000$labyMod$fireGameRenderEvent(Minecraft.java:4763)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1048)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:681)
+	at net.minecraft.client.main.Main.main(Main.java:215)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:214)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:67)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.labymod.core.client.gfx.pipeline.buffer.DefaultBufferBuilder.begin(DefaultBufferBuilder.java:42)
+	at net.labymod.api.client.gfx.pipeline.renderer.batch.SingleBufferBatch.begin(SingleBufferBatch.java:24)
+	at net.labymod.api.client.gui.screen.widget.attributes.Shadow.renderClassicShadow(Shadow.java:190)
+	at net.labymod.api.client.gui.screen.widget.attributes.Shadow.renderPost(Shadow.java:104)
+	at net.labymod.api.client.gui.screen.widget.attributes.Shadow.renderPost(Shadow.java:21)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.applyWidgetRenderer(AbstractWidget.java:2876)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._renderTheme(AbstractWidget.java:859)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderTheme(AbstractWidget.java:806)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$renderInternal$7(AbstractWidget.java:692)
+	at net.labymod.api.client.gui.mouse.MutableMouse.set(MutableMouse.java:39)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderInternal(AbstractWidget.java:687)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._render(AbstractWidget.java:631)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.render(AbstractWidget.java:610)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderWidget(AbstractWidget.java:899)
+	at net.labymod.api.client.gui.screen.theme.renderer.WidgetRenderer.renderWidget(WidgetRenderer.java:15)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$_renderTheme$8(AbstractWidget.java:849)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.applyStencil(AbstractWidget.java:886)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._renderTheme(AbstractWidget.java:845)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderTheme(AbstractWidget.java:806)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$renderInternal$7(AbstractWidget.java:692)
+	at net.labymod.api.client.gui.mouse.MutableMouse.set(MutableMouse.java:39)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderInternal(AbstractWidget.java:687)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._render(AbstractWidget.java:631)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.render(AbstractWidget.java:610)
+	at net.labymod.api.client.gui.screen.activity.ElementActivity.render(ElementActivity.java:54)
+	at net.labymod.api.client.gui.screen.activity.Activity.render(Activity.java:162)
+	at net.labymod.api.client.gui.screen.activity.types.SimpleActivity.render(SimpleActivity.java:27)
+	at net.labymod.api.client.gui.screen.activity.types.TabbedActivity.render(TabbedActivity.java:122)
+	at net.labymod.api.client.gui.screen.widget.widgets.renderer.ScreenRendererWidget$3$1.getAsBoolean(ScreenRendererWidget.java:289)
+	at net.labymod.api.client.gui.mouse.MutableMouse.set(MutableMouse.java:50)
+	at net.labymod.api.client.gui.screen.widget.widgets.renderer.ScreenRendererWidget.applyScreen(ScreenRendererWidget.java:405)
+	at net.labymod.api.client.gui.screen.widget.widgets.renderer.ScreenRendererWidget.access$100(ScreenRendererWidget.java:40)
+	at net.labymod.api.client.gui.screen.widget.widgets.renderer.ScreenRendererWidget$3.run(ScreenRendererWidget.java:286)
+	at net.labymod.core.client.gui.window.DefaultAbstractWindow.transform(DefaultAbstractWindow.java:98)
+	at net.labymod.api.client.gui.screen.widget.widgets.renderer.ScreenRendererWidget.renderWidget(ScreenRendererWidget.java:279)
+	at net.labymod.api.client.gui.screen.theme.renderer.WidgetRenderer.renderWidget(WidgetRenderer.java:15)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$_renderTheme$8(AbstractWidget.java:849)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.applyStencil(AbstractWidget.java:886)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._renderTheme(AbstractWidget.java:845)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderTheme(AbstractWidget.java:806)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$renderInternal$7(AbstractWidget.java:692)
+	at net.labymod.api.client.gui.mouse.MutableMouse.set(MutableMouse.java:39)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderInternal(AbstractWidget.java:687)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._render(AbstractWidget.java:631)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.render(AbstractWidget.java:610)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderWidget(AbstractWidget.java:899)
+	at net.labymod.api.client.gui.screen.theme.renderer.WidgetRenderer.renderWidget(WidgetRenderer.java:15)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$_renderTheme$8(AbstractWidget.java:849)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.applyStencil(AbstractWidget.java:886)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._renderTheme(AbstractWidget.java:845)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderTheme(AbstractWidget.java:806)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.lambda$renderInternal$7(AbstractWidget.java:692)
+	at net.labymod.api.client.gui.mouse.MutableMouse.set(MutableMouse.java:39)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.renderInternal(AbstractWidget.java:687)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget._render(AbstractWidget.java:631)
+	at net.labymod.api.client.gui.screen.widget.AbstractWidget.render(AbstractWidget.java:610)
+	at net.labymod.api.client.gui.screen.activity.ElementActivity.render(ElementActivity.java:54)
+	at net.labymod.api.client.gui.screen.activity.Activity.render(Activity.java:162)
+	at net.labymod.v1_16_5.client.gui.screen.LabyScreenRenderer.lambda$render$0(LabyScreenRenderer.java:107)
+	at net.labymod.api.client.Minecraft.lambda$updateMouse$0(Minecraft.java:102)
+	at net.labymod.api.client.gui.mouse.MutableMouse.set(MutableMouse.java:39)
+	at net.labymod.api.client.Minecraft.updateMouse(Minecraft.java:102)
+	at net.labymod.v1_16_5.client.gui.screen.LabyScreenRenderer.render(LabyScreenRenderer.java:106)
+	at net.minecraft.client.renderer.GameRenderer.mdefc010$lambda$labyMod$storeStack$0$0(GameRenderer.java:1960)
+	at net.labymod.api.client.gfx.pipeline.util.ScreenUtil.wrapRender(ScreenUtil.java:12)
+	at net.minecraft.client.renderer.GameRenderer.redirect$zce000$labyMod$storeStack(GameRenderer.java:1960)
+
+-- Screen render details --
+Details:
+	Screen name: net.labymod.v1_16_5.client.gui.screen.LabyScreenRenderer
+	Mouse location: Scaled: (189, 15). Absolute: (379.914063, 30.394531)
+	Screen size: Scaled: (427, 240). Absolute: (1708, 960). Scale factor of 4.000000
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:616)
+	at net.minecraft.client.Minecraft.redirect$zfc000$labyMod$fireGameRenderEvent(Minecraft.java:4763)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1048)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:681)
+	at net.minecraft.client.main.Main.main(Main.java:215)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:214)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:67)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Mac OS X (x86_64) version 13.2.1
+	Java Version: 17.0.1, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 235088384 bytes (224 MB) / 495976448 bytes (473 MB) up to 2147483648 bytes (2048 MB)
+	CPUs: 8
+	JVM Flags: 0 total; 
+	Launched Version: 1.16.5
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: Apple M1 GL version 2.1 Metal - 83, Apple
+	GL Caps: Using framebuffer using ARB_framebuffer_object extension
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'labymod'
+	Type: Client (map_client.txt)
+	GPU Warnings: version: 2.1
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 8x Apple M1
+
+-- LabyMod Details --
+	Version: 4.0.0+683 snapshot/de2d0c36
+	Commit Reference: de2d0c36
+	Theme: Vanilla
+	Loaded Addons: ticketaddon(0.0.1)
+
+-- OpenGL Details --
+	Available versions: OpenGL11, OpenGL12, OpenGL13, OpenGL14, OpenGL15, OpenGL20, OpenGL21
+Framebuffer:
+Shader:
+	Max. Vertex Uniform Components: 4096
+	Max. Fragment Uniform Components: 4096
+	Max. Varying Floats: 124
+	Max. Vertex Attributes: 16
+	Max. Texture Image Units: 16
+	Max. Vertex Texture Image Units: 16
+	Max. Combined Texture Image Units: 16
+	Max. Texture Coords: 8

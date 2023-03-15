@@ -8,11 +8,11 @@ import net.labymod.api.client.gui.hud.hudwidget.text.TextLine;
 public class TicketAmountWidget extends TextHudWidget<TextHudWidgetConfig> {
 
   private static TextLine ticketAmount;
-  private static ExampleAddon addon;
+  private static TicketAddon addon;
 
-  public TicketAmountWidget(ExampleAddon exampleAddon) {
+  public TicketAmountWidget(TicketAddon ticketAddon) {
     super("ticketAmount");
-    this.addon = exampleAddon;
+    this.addon = ticketAddon;
   }
 
   public void updateTicketAmount() {
